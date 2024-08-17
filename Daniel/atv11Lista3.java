@@ -15,6 +15,7 @@ public class atv11Lista3 {
         } else {
             System.out.println("Voto obrigatório.");
         }
+
         sc.close();
     }
 }
