@@ -22,5 +22,7 @@ public class Atv12Lista3 {
         } else {
             System.out.println("Você ficou em recuperação.");
         }
+
+        sc.close();
     }
 }
