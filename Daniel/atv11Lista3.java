@@ -2,7 +2,7 @@ package Daniel;
 
 import java.util.Scanner;
 
-public class atv11Lista3 {
+public class Atv11Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe sua idade: ");
