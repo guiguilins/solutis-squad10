@@ -2,7 +2,7 @@ package Guilherme;
 
 import java.util.Scanner;
 
-public class atv2Lista3 {
+public class Atv2Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Qual o seu salario? ");
