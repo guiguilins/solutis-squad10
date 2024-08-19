@@ -6,6 +6,6 @@ public class atv6Lista3 {
 
         double areaCirculo = Math.PI * raio * raio;
 
-        System.out.println("Area do circulo: " + areaCirculo);
+        System.out.printf("Area do circulo: %.2f%n", areaCirculo);
     }
 }
