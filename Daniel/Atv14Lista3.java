@@ -44,6 +44,7 @@ public class Atv14Lista3 {
                 break;  
             case "dezembro":
                 System.out.println("12");
+                break;
             default:
                 System.out.println("Mês inválido.");
                 break;
