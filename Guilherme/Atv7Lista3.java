@@ -2,7 +2,7 @@ package Guilherme;
 
 import java.util.Scanner;
 
-public class atv7Lista3 {
+public class Atv7Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informa sua despesa total: ");

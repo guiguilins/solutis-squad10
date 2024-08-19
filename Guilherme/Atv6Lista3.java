@@ -1,6 +1,6 @@
 package Guilherme;
 
-public class atv6Lista3 {
+public class Atv6Lista3 {
     public static void main(String[] args) {
         double raio = 5;
 
