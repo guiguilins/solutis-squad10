@@ -9,8 +9,11 @@
 
 # IntelliJ IDEA-specific files
 .idea/
+out/
+target/
 *.iml
 *.iws
+
 
 
 # Mobile Tools for Java (J2ME)

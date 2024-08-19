@@ -2,7 +2,7 @@ package Gerson;
 
 import java.math.BigInteger;
 
-public class atv52Lista3 {
+public class Atv52Lista3 {
     public static void main(String[] args) {
         BigInteger valorFinal = BigInteger.valueOf(1);
         System.out.println("Casa n: "+1+" Valor total: "+ valorFinal);
