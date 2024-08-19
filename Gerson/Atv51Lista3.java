@@ -7,7 +7,11 @@ import java.util.Scanner;
     A FORMULA É : Tn = Tn-1 + Tn-2 + Tn-3; onde T0 = 1; T1 = 1; T = 2;
     ENTÃO APARTI DISSO O CODIGO DE OBTER O SEGUINTE RESULTADO: 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149 ...
     OU SEJA ATE O ENÉSIMO NUMERO;
- */
+
+           51. Exiba os n primeiros termos da seqüência de Tribonacci (soma dos três anteriores). Inicia
+        com 1,1 e 2.
+
+     */
 public class Atv51Lista3 {
     public static void main(String[] args) {
         int t0 = 1;
