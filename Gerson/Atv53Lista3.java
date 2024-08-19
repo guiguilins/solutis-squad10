@@ -2,7 +2,7 @@ package Gerson;
 
 import java.util.Scanner;
 
-public class atv53Lista3 {
+public class Atv53Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe o numero que você deseja ver a tabuada: ");
@@ -10,5 +10,6 @@ public class atv53Lista3 {
         for (int i = 1; i <= 10; i++) {
             System.out.println(nTabuada+ " x "+ i + " = "+ (i*nTabuada));
         }
+        sc.close();
     }
 }
