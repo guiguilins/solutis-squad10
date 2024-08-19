@@ -1,7 +1,7 @@
 # solutis SQUAD 10
 
 
-# Guilherme - Questoes 1-10
+# Guilherme - Questoes 1-10 e 61
 
 # Daniel - Questoes 11-20
 
