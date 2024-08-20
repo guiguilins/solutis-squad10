@@ -2,7 +2,7 @@ package Guilherme;
 
 import java.util.Scanner;
 
-public class atv3Lista3 {
+public class Atv3Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe a quantidade de homens: ");
