@@ -3,7 +3,7 @@ package Guilherme;
 
 import java.util.Scanner;
 
-public class atv4Lista3 {
+public class Atv4Lista3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe a nota 1: ");
