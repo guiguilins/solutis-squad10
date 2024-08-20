@@ -2,22 +2,34 @@ package JoaoVictor;
 import java.util.Scanner;
 
 public class Atv43Lista3 {
+        public static void main(String[] args) {
+            int quantidadeValores = 500;
+            double[] valores = recebeValores(quantidadeValores);
+            double media = calcularMedia(valores);
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double soma = 0.0;
-
-        System.out.println("Digite 500 valores para calcular a média aritmética:");
-
-        for (int i = 1; i <= 500; i++) {
-            System.out.print("Informe o " + i + "° valor: ");
-            double valor = scanner.nextDouble();
-            soma += valor;
+            System.out.println("A média aritmética dos valores fornecidos é: " + media);
         }
 
-        double media = soma / 500;
-        System.out.printf("A média aritmética dos 500 valores é: %.2f\n", media);
+        public static double[] recebeValores(int qtd) {
+            Scanner scanner = new Scanner(System.in);
+            double[] valores = new double[qtd];
 
-        scanner.close();
+            System.out.println("Informe " + qtd + " valores:");
+
+            for (int i = 0; i < qtd; i++) {
+                System.out.print("Valor " + (i + 1) + ": ");
+                valores[i] = scanner.nextDouble();
+            }
+            return valores;
+        }
+
+        public static double calcularMedia(double[] valores) {
+            double soma = 0;
+
+            for (double valor : valores) {
+                soma += valor;
+            }
+            return soma / valores.length;
+        }
     }
-}
+
